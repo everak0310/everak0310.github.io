@@ -1,14 +1,26 @@
+div {
+    display: flex;
+}
+
 .menu {
     display: flex;
     justify-content: flex-end;
-    padding: .5%;
-    width: 90%;
+    padding: .3%;
+    width: 97%;
+}
+
+.menu div {
+    font-family: 'Sigmar One', cursive;
+    flex-grow: 2;
+    font-size: 1.3em;
+    margin-left: 3%;
 }
 
 .menu a {
-    border: solid 3px black;
+    border: solid 2px black;
     text-decoration: none;
     padding-right: 5%;
+    font-family: 'Sigmar One', cursive;
     padding-left: 5%;
     font-weight: bold;
     color: black;
@@ -41,82 +53,4 @@
 
 * {
     /*    border: solid 1px black;*/
-}
-
-.bio {
-    justify-content: space-evenly;
-    margin-bottom: 5%;
-}
-
-.bio h1 {
-    text-align: center;
-    flex-direction: column;
-}
-
-.bio div:first-child {
-
-    width: 20em;
-    flex-direction: column;
-    font-family: 'Sigmar One', cursive;
-
-}
-
-.bio div img {
-    display: flex;
-    height: 20em;
-    width: 20em;
-}
-
-div {
-    display: flex;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    font-family: "Verdana", Serif;
-
-    margin: 0;
-
-
-
-}
-
-@media screen and (max-width:320px) {
-    .menu {
-        font-size: .8em;
-        justify-content: center;
-
-    }
-    .spaces {
-        font-size: 1.2em;
-    }
-    .bio {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .menu {
-        font-size: .8em;
-        justify-content: center;
-
-    }
-    .spaces {
-        font-size: 1.2em;
-    }
-    .bio {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width:1200px) {
-    .menu {
-        font-size: .8em;
-        justify-content: center;
-
-    }
-    .spaces {
-        font-size: 1.2em;
-    }
 }

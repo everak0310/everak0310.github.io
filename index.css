@@ -1,25 +1,74 @@
-.menu {
+.bio {
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+.bio h1 {
+    text-align: center;
+    flex-direction: column;
+}
+
+.bio div:first-child {
+
+    width: 20em;
+    flex-direction: column;
+    font-family: 'Sigmar One', cursive;
+
+}
+
+.bio div img {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 50px;
-    padding-left: 50px;
-
+    height: 20em;
+    width: 20em;
 }
 
-.menu a {
-    border: solid 3px black;
-    text-decoration: none;
-    padding-right: 50px;
-    padding-left: 50px;
-    font-weight: bold;
-    color: black;
-    background-color: white;
 
-
-}
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: "Verdana", Serif;
 
+    margin: 0;
+}
 
+}
+
+@media screen and (max-width:320px) {
+    .menu {
+        font-size: .8em;
+        justify-content: center;
+
+    }
+    .spaces {
+        font-size: 1.2em;
+    }
+    .bio {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .menu {
+        font-size: .8em;
+        justify-content: center;
+
+    }
+    .spaces {
+        font-size: 1.2em;
+    }
+    .bio {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .menu {
+        font-size: .8em;
+        justify-content: center;
+
+    }
+    .spaces {
+        font-size: 1.2em;
+    }
 }
