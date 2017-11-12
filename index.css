@@ -1,0 +1,25 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+
+.menu a {
+    border: solid 3px black;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+
+
+}
+
+body {
+    font-family: "Verdana", Serif;
+
+
+}

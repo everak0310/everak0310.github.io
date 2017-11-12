@@ -1,0 +1,34 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 90%;
+
+
+}
+
+.menu a {
+    border: solid 3px black;
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
+
+.menu a:hover {
+    background-color: red;
+    width: 150px;
+    transition: width 2s;
+
+
+}
+
+body {
+    font-family: "Verdana", Serif;
+    font-size: 50%;
+
+
+}
