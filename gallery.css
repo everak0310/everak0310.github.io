@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Sigmar One', cursive;
+    text-align: center;
+    align-items: center;
+}
+
+body p {
+    font-size: 2.5em;
+    text-align: center;
+    margin: 2%;
+    width: 50%;
+    border: solid 1px black;
+    border-radius: 25px;
