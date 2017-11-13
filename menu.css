@@ -28,9 +28,11 @@ div {
 }
 
 .menu a:hover {
+
     background-color: red;
     width: 150px;
-    transition: width 2s;
+    transition: background-color 1.5s ease-in-out;
+
 }
 
 .spaces {
