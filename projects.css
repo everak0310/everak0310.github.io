@@ -1,3 +1,7 @@
+body {
+    font-family: 'Sigmar One', cursive;
+}
+
 .pro {
     display: flex;
     flex-direction: column;
@@ -18,10 +22,6 @@ p {
     text-align: center;
     margin: 2%;
     width: 50%;
-/*
-    border: solid 1px black;
-    border-radius: 25px;
-*/
 }
 
 .coming {
