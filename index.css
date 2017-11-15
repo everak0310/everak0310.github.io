@@ -10,7 +10,7 @@
 
 .bio div:first-child {
 
-    width: 20em;
+    width: 22em;
     flex-direction: column;
     font-family: 'Sigmar One', cursive;
 
@@ -22,7 +22,9 @@
     width: 20em;
 }
 
-
+.bio div a {
+    text-align: center;
+}
 
 body {
     display: flex;
@@ -32,9 +34,35 @@ body {
     margin: 0;
 }
 
+footer {
+    text-align: center;
 }
 
-@media screen and (max-width:320px) {
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #55ACEE;
+    color: white;
+}
+
+
+@media screen and (max-width: 320px) {
     .menu {
         font-size: .8em;
         justify-content: center;
