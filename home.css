@@ -55,7 +55,7 @@
 .marginstarts {
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
+
     padding-top: 40px;
 }
 
