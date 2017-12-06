@@ -1,3 +1,136 @@
+.social {
+    text-align: center;
+    font-size: 1.8em;
+    color: #555;
+    overflow: hidden;
+}
+
+.social a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.social i {
+    margin: .3em;
+    cursor: pointer;
+    transition: color 300ms ease, margin-top 300ms ease;
+    transform: translateZ(0);
+}
+
+.social i:hover {
+    margin-top: -1px;
+}
+
+.social i#facebook:hover {
+    color: #77DDF6;
+}
+
+
+.social i#linkedin:hover {
+    color: #0177B5;
+}
+
+.social i#mail:hover {
+    color: #F7B401;
+}
+
+topmenu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.topmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 40px;
+    background-color: transparent;
+
+}
+
+.marginstarts {
+    margin-left: 200px;
+    margin-right: 200px;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px red;
+}
+
+.backgroundimage {
+    background-image: url("home.JPG");
+    box-shadow: 10px 10px 5px grey;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Sigmar One', cursive;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50em;
+    height: 200em;
+    border: solid 3px blue;
+
+}
+
+.topmenu nav a {
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+}
+
+.topmenu nav a:hover {
+    background-color: #E8E8E8;
+}
+
+.about {
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: 50px;
+    border: solid 10px green;
+    width: 100%;
+    height: 500px;
+
+
+}
+
+.about h1 {
+    text-align: center;
+    flex-direction: column;
+}
+
+.about div:first-child {
+
+    width: 22em;
+    flex-direction: column;
+
+}
+
+.about div img {
+    display: flex;
+    height: 20em;
+    width: 20em;
+    border: solid black 2px;
+}
+
+/*
 .bio {
     justify-content: space-evenly;
     margin-bottom: 5%;
@@ -72,4 +205,18 @@ body {
     .spaces {
         font-size: 1.2em;
     }
+}
+*/
+
+* {
+    border: solid 1px black;
+}
+
+body {
+    border: solid 2px red;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
