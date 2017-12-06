@@ -51,7 +51,12 @@ topmenu {
     margin-bottom: 15px;
     margin-top: 10px;
     background-color: transparent;
+    font-family: 'Sigmar One', cursive;
 
+}
+
+.topmenu h2 {
+    font-family: 'Sigmar One', cursive;
 }
 
 .marginstarts {
@@ -104,7 +109,7 @@ topmenu {
 
 .about {
 
-    border: solid 2px red;
+
     width: auto;
     height: auto;
 
@@ -125,13 +130,10 @@ topmenu {
     border: solid black 5px;
 }
 
-.about p {
-    margin-left: 450px;
-    margin-right: 450px;
-}
-
 .projects {
-    border: solid 1px green;
+
+    width: auto;
+    height: auto;
 }
 
 .projects img {
@@ -139,6 +141,66 @@ topmenu {
     width: 40em;
 }
 
+p {
+    margin-left: 420px;
+    margin-right: 420px;
+    text-align: center;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 330px;
+    align-self: center;
+
+}
+
+.left:hover {
+    background-color: red;
+    transition: background-color 1.5s ease-in-out;
+}
+
+.left {
+    flex-grow: 1;
+    justify-content: center;
+    cursor: pointer;
+    border: solid 1px black;
+    font-family: 'Sigmar One', cursive;
+
+
+}
+
+.right:hover {
+    background-color: red;
+    transition: background-color 1.5s ease-in-out;
+}
+
+.right {
+    flex-grow: 1;
+    justify-content: center;
+    cursor: pointer;
+    border: solid 1px black;
+    font-family: 'Sigmar One', cursive;
+
+}
+
+.gallery img {
+    height: 30em;
+    width: 30em;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    color: white;
+}
+
+h1 {
+    font-family: 'Sigmar One', cursive;
+}
 
 /*
 .bio {
@@ -230,4 +292,11 @@ body {
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+.button {
+    justify-content: center;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 5px;
 }
