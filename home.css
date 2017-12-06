@@ -35,33 +35,28 @@
     color: #F7B401;
 }
 
-topmenu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
 
 .topmenu {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 15px;
-    margin-top: 10px;
     background-color: transparent;
     font-family: 'Sigmar One', cursive;
+    position: fixed;
+
+    width: 100%;
 
 }
 
 .topmenu h2 {
-    font-family: 'Sigmar One', cursive;
+    font-family: 'Leckerli One', cursive;
 }
 
 .marginstarts {
     display: flex;
     flex-direction: column;
+    border: solid 1px black;
+    padding-top: 40px;
 }
 
 .neverimage {
@@ -69,8 +64,8 @@ topmenu {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 55px;
+    padding-top: 120px;
+    padding-bottom: 80px;
 
 
 }
@@ -104,12 +99,10 @@ topmenu {
 }
 
 .topmenu nav a:hover {
-    background-color: #E8E8E8;
+    background-color: #D6EAF8;
 }
 
 .about {
-
-
     width: auto;
     height: auto;
 
@@ -127,7 +120,7 @@ topmenu {
 .about img {
     height: 20em;
     width: 20em;
-    border: solid black 5px;
+    border: solid red 5px;
 }
 
 .projects {
@@ -137,9 +130,22 @@ topmenu {
 }
 
 .projects img {
+    border-radius: 8px;
     height: 20em;
     width: 40em;
+    transition: all .5s ease;
+    transition: all .5s ease;
+    transition: all .5s ease;
+    transition: all .5s ease;
+
 }
+
+.projects img:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    width: 41em;
+    height: 21em;
+}
+
 
 p {
     margin-left: 420px;
@@ -157,7 +163,7 @@ p {
 }
 
 .left:hover {
-    background-color: red;
+    background-color: #D6EAF8;
     transition: background-color 1.5s ease-in-out;
 }
 
@@ -172,7 +178,7 @@ p {
 }
 
 .right:hover {
-    background-color: red;
+    background-color: #D6EAF8;
     transition: background-color 1.5s ease-in-out;
 }
 
@@ -188,6 +194,7 @@ p {
 .gallery img {
     height: 30em;
     width: 30em;
+    border-radius: 8px;
 }
 
 footer {
@@ -285,6 +292,29 @@ body {
     border: solid 1px black;
 }
 */
+
+.button div {
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.button div:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
 body {
     position: absolute;
