@@ -3,7 +3,6 @@
 /* eslint-env browser */
 
 var urls = ["food.JPG",
-"art.Jpg",
 "beach.JPG",
 "fashion.JPG",
 "travel.JPG",
