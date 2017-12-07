@@ -40,10 +40,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
     font-family: 'Sigmar One', cursive;
     position: fixed;
-
     width: 100%;
 
 }
@@ -206,6 +204,18 @@ footer p {
     color: white;
 }
 
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    height: 120px;
+    padding: 1%;
+
+}
+
 h1 {
     font-family: 'Sigmar One', cursive;
 }
@@ -330,4 +340,8 @@ body {
     padding-left: 400px;
     padding-right: 400px;
     padding-top: 5px;
+}
+
+div {
+    display: flex;
 }

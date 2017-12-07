@@ -2,63 +2,8 @@ div {
     display: flex;
 }
 
-.menu {
-
-    display: flex;
-    justify-content: flex-start;
-    width: 100vw;
-    flex-direction: row;
-}
-
-.menu div {
-    font-family: 'Sigmar One', cursive;
-    flex-grow: 1;
-    font-size: 1.3em;
-    align-self: left;
-    padding-left: 3%;
-
-}
-
-.menu a {
-
-    text-decoration: none;
-    padding-right: 5%;
-    font-family: 'Sigmar One', cursive;
-    padding-left: 5%;
-    font-weight: bold;
-    color: black;
-    background-color: white;
-    align-content: flex-start;
-    align-content: flex-start;
-}
-
-.menu a:hover {
-
-    background-color: red;
-    width: 150px;
-    transition: background-color 1.5s ease-in-out;
-
-}
 
 
-
-.spaces {
-
-    margin-bottom: 5%;
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 13%;
-    font-size: 3em;
-    font-weight: bold;
-    font-family: 'Sigmar One', cursive;
-    background-image: url("home.JPG");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
 
 footer {
     display: flex;
@@ -69,36 +14,4 @@ footer {
     height: 120px;
     padding: 1%;
 
-}
-
-footer div {
-    justify-content: center;
-}
-
-footer > a {
-    font-size: 1.2em;
-    color: white;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-.fa-linkedin {
-    background: #55ACEE;
-    color: white;
 }
